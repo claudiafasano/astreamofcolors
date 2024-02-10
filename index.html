@@ -19,7 +19,31 @@
       <figcaption>"Your mind is a stream of colors"</figcaption>
     </figure>
 
-    <section></section>
+    <section>
+      <h1>A few silly questions</h1>
+      <h3>State your species, your intentions, and your name!</h3>
+      <form action="https://github.com/claudiafasano/astreamofcolors/index.html" method="get">
+        
+      <fieldset>
+        <legend>Who are you?</legend>
+        <label><input id="human" type="radio" name="species" value="human" checked>Human</label>
+        <label><input id="animal" type="radio" name="species" value="animal">Animal</label>
+        <label><input id="alien" type="radio" name="species" value="alien">Alien</label>
+        <label><input id="robot" type="radio" name="species" value="robot">Robot</label>
+      </fieldset> 
+
+      <fieldset>
+        <legend>Why are you here?</legend>
+        <input id="idontknow" type="checkbox" name="intentions" value="idontknow"><label for="idontknow">I don't know</label>
+        <input id="takingalook" type="checkbox" name="intentions" value="takingalook"><label for="takingalook">Just taking a look..</label>
+        <input id="interstellartravel" type="checkbox" name="intentions" value="interstellartravel"><label for="interstellartravel">Interstellar Travel</label>
+      </fieldset>
+
+        <input type="text" name="nickname" placeholder="nickname" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </main>
   
   <footer></footer>
